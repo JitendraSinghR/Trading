@@ -1,0 +1,22 @@
+/* styles.css */
+
+.button {
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+  font-weight: 600;
+    &:hover {
+      background-color: #f0f0f0;
+      border-radius: 20px;
+    }
+  
+    &.active {
+      background-color: #4a54d9;
+      color: #fff;
+      border-radius: 20px;
+    }
+  }
+  
