@@ -6,7 +6,7 @@ import TradingTable from "./Table";
 function Home() {
   return (
     <div className=" w-full min-h-[1100px]">
-      <Button className="w-full" />
+      <Button />
 
       <TradingViewWidget />
       <TradingTable/>
